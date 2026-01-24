@@ -1,27 +1,27 @@
-# 📈 End-to-End Stock Market Data Engineering & Analytics Platform
+#  End-to-End Stock Market Data Engineering & Analytics Platform
 
-## 🎯 Project Objective
+##  Project Objective
 The objective of this project is to design and implement a **production-grade data engineering pipeline** for stock and cryptocurrency market data that supports **automated ingestion, incremental processing, historical tracking, and analytics-ready reporting**.
 
 This project demonstrates how raw market data is ingested, refined, historized, and finally exposed for analytics using **real-world cloud data engineering patterns**.
 
 ---
 
-## 📖 Project Overview
+##  Project Overview
 This project implements an **end-to-end data pipeline** using **Azure Data Factory, Azure Data Lake Gen2, Azure Databricks, Delta Lake, and Power BI**.
 
 Market data such as **Open, High, Low, Close (OHLC) prices and Trading Volume** is ingested from **APIs and CSV-based sources**, processed through a **Raw → Bronze → Silver → Gold architecture**, and visualized using **interactive Power BI dashboards** with automated refresh.
 
 ---
 
-## 🎯 Target Users
+##  Target Users
 - **Data Analysts** – for price trend and volume analysis  
 - **Business & Finance Teams** – for monitoring market movements  
 - **Decision Makers** – for KPI-driven insights  
 
 ---
 
-## 📊 Data Used
+##  Data Used
 The project works with **time-series market data** for stocks and cryptocurrencies.
 
 ### Key Attributes
@@ -43,14 +43,14 @@ The project works with **time-series market data** for stocks and cryptocurrenci
 
 ---
 
-## 🏗️ Solution Architecture
+##  Solution Architecture
 The project follows a **layered Raw → Bronze → Silver → Gold architecture** to ensure scalability, auditability, and analytics readiness.
 
 ![Solution Architecture](https://github.com/alpesh502/stock-market-data-engineering-platform/blob/main/stock_market(architecture).png)
 
 ---
 
-## 🟫 Raw Layer (Azure Data Lake – ADF Ingestion)
+##  Raw Layer (Azure Data Lake – ADF Ingestion)
 - Data ingested using **Azure Data Factory pipelines**
 - Supports:
   - API-based ingestion
@@ -62,7 +62,7 @@ The project follows a **layered Raw → Bronze → Silver → Gold architecture*
 
 ---
 
-## 🥉 Bronze Layer (Databricks)
+##  Bronze Layer (Databricks)
 - Raw data from ADLS loaded into Databricks
 - Minimal transformations applied
 - Schema inferred and standardized
@@ -73,7 +73,7 @@ The project follows a **layered Raw → Bronze → Silver → Gold architecture*
 
 ---
 
-## 🥈 Silver Layer (Databricks – Incremental & SCD Type 2)
+##  Silver Layer (Databricks – Incremental & SCD Type 2)
 - Data cleansing and validation applied
 - Column standardization and type casting
 - **Incremental processing implemented**
@@ -88,7 +88,7 @@ The project follows a **layered Raw → Bronze → Silver → Gold architecture*
 
 ---
 
-## 🥇 Gold Layer (Databricks – Analytics Ready)
+##  Gold Layer (Databricks – Analytics Ready)
 - Business-ready Delta tables
 - Aggregation-friendly schema
 - Optimized for BI consumption
@@ -103,7 +103,7 @@ Gold datasets include:
 
 ---
 
-## 🔁 Data Processing & Automation (Azure Databricks)
+##  Data Processing & Automation (Azure Databricks)
 - **PySpark** used for all transformations
 - **Delta Lake** provides:
   - ACID transactions
@@ -120,7 +120,7 @@ Gold datasets include:
 
 ---
 
-## 📈 Analytics & Visualization (Power BI)
+##  Analytics & Visualization (Power BI)
 - Power BI connected to **Databricks SQL Warehouse**
 - Star-schema modeling with a **central Date Dimension**
 - Interactive dashboards featuring:
@@ -133,7 +133,7 @@ Gold datasets include:
 
 ---
 
-## 💡 Business Value
+##  Business Value
 - Eliminates manual data preparation  
 - Maintains full historical traceability using **SCD Type 2**  
 - Enables incremental and scalable data processing  
@@ -142,7 +142,7 @@ Gold datasets include:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - Azure Data Factory  
 - Azure Data Lake Gen2  
 - Azure Databricks  
@@ -153,7 +153,7 @@ Gold datasets include:
 
 ---
 
-## 👤 Author
+##  Author
 **Alpesh Singh**  
 Aspiring Data Engineer  
 Azure | Databricks | SQL | Power BI  

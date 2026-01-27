@@ -17,7 +17,7 @@ Market data such as **Open, High, Low, Close (OHLC) prices and Trading Volume** 
 ##  Target Users
 - **Data Analysts** – for price trend and volume analysis  
 - **Business & Finance Teams** – for monitoring market movements
-- **Decision Makers** – for KPI-driven insights  
+- **Decision Makers** – for KPI-driven insights
 
 ---
 

@@ -56,7 +56,7 @@ The project follows a **layered Raw → Bronze → Silver → Gold architecture*
   - API-based ingestion
   - CSV-based ingestion
 - Stores raw data **exactly as received**
-- Used for traceability, replay, and audit purposes  
+- Used for traceability, replay, and audit purposes
 
 ![ADF Raw Ingestion](https://github.com/alpesh502/stock-market-data-engineering-platform/blob/main/ADF_Ingestion.png)
 

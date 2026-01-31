@@ -35,7 +35,7 @@ The project works with **time-series market data** for stocks and cryptocurrenci
 ### Data Sources
 1. **API Source**
    - Used for incremental market data ingestion  
-   - Triggered and orchestrated using Azure Data Factory  
+   - Triggered and orchestrated using Azure Data Factory
 
 2. **CSV Files**
    - **Historical CSV** – full backfill of historical market data  

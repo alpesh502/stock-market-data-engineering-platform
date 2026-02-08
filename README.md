@@ -39,7 +39,7 @@ The project works with **time-series market data** for stocks and cryptocurrenci
 
 2. **CSV Files**
    - **Historical CSV** – full backfill of historical market data  
-   - **Snapshot CSV** – daily point-in-time market state  
+   - **Snapshot CSV** – daily point-in-time market state
 
 ---
 
